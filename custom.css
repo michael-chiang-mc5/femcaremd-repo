@@ -1,0 +1,103 @@
+body {
+  background-color: #67b;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* header */
+#toprow-text {
+  background-color: #ddb;
+  text-align: right;
+}
+#toprow {
+  height: 65px;
+  line-height: 65px;
+}
+
+/* navbar and content */
+#middlerow {
+    display: table;
+    background-color: white;
+}
+.row-same-height {
+  display: table;
+  width: 100%;
+  /* fix overflow */
+  table-layout: fixed;
+    background-color: #67b;
+}
+
+/* navbar */
+#blue-spacer-1 {
+  min-height: 10px;
+}
+.left-navbar {
+  background-color: #cdf;
+  float: none;
+  display: table-cell;
+}
+#black-spacer {
+  height: 1px;
+  background-color: black;
+}
+#blue-spacer-2 {
+  min-height: 400px;
+}
+.navbar-item a {
+  font-size: 20;
+}
+
+/* content */
+.right-content {
+    background-color: white;
+    float: none;
+    display: table-cell;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+/* footer */
+#bottomrow-text {
+  background-color: #ddb;
+  text-align: center;
+}
+#bottomrow {
+  height: 30px;
+  line-height: 30px;
+}
+
+/* style for location tables */
+th,td {
+    border: none;
+    border-collapse: collapse;
+    text-align: left;
+    padding-left: 15px;
+}
+
+/* style for pricing tables */
+.pricing-table tr th, .pricing-table tr td {
+    min-height: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 15px;
+    text-align: left;
+    min-width:100px;
+}
+.pricing-table {
+  width: 100%
+}
+.pricing-table tr th {
+  background-color: rgb(205, 217, 222);
+  text-align: center;
+}
+.pricing-table h1 {
+  font-size: 40;
+}
+.pricing-table h1 small {
+  font-size: 14;
+}
+.pricing-table h2 {
+  font-size: 24;
+}
