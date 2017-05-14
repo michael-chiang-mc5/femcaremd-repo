@@ -6,6 +6,23 @@ a {
   cursor: pointer;
 }
 
+.directions {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -2em;
+    padding-left: 2em;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* header */
 #toprow-text {
   background-color: #ddb;
@@ -48,11 +65,15 @@ a {
     background-color: white;
     float: none;
     display: table-cell;
-    padding-top: 40px;
-    padding-left: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 .mc-text {
-  font-size: 10px;
+  font-size: 0.8em;
+}
+.mc-image {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 /* footer */
@@ -71,6 +92,7 @@ th,td {
     border-collapse: collapse;
     text-align: left;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* style for pricing tables */
