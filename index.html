@@ -15,62 +15,84 @@
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
 
+
+    <style>
+      .navbar-item a {
+        font-size: 17;
+        color: #04b;
+        padding: 5px 5px !important;
+      }
+      .logo {
+        float: left;
+        height: 65px;
+        width: 270px;
+      }
+      .left-navbar {
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+    </style>
+
   </head>
 
   <body>
 
     <!-- top-side bar -->
     <div class="row" id="toprow">
-      <div class="col-xs-1"></div>
-      <div class="col-xs-10" id="toprow-text">診所電話: (909) 622-5654</div>
-      <div class="col-xs-1"></div>
+      <div class="col-xs-3"></div>
+      <div class="col-xs-6" id="toprow-text">
+        <img class="logo" alt="" height="66" src="images/logo2.png" width="270">
+        診所電話: (909) 622-5654
+      </div>
+      <div class="col-xs-3"></div>
     </div>
 
     <!-- left navbar and main content -->
     <div class="row" id="middlerow">
       <div class="row-same-height">
-        <div class="col-xs-1"></div>
+        <div class="col-xs-3"></div>
         <!-- left navbar -->
-        <div class="col-xs-2 left-navbar">
+        <div class="col-xs-1 left-navbar">
           <ul class="nav nav-pills nav-stacked" id="navbar-full">
             <!--
 	    <div id="blue-spacer-1"></div>
             <li class="navbar-item"><a id="home">首頁</a></li>
-            <div id="black-spacer"></div>
+            <div id="white-spacer"></div>
 	    -->
+            <div id="white-spacer"></div>
             <li class="navbar-item"><a id="locations">診所地點</a></li>
-            <div id="black-spacer"></div>
+            <div id="white-spacer"></div>
             <li class="navbar-item"><a id="pricing">費用</a></li>
-            <div id="black-spacer"></div>
+            <div id="white-spacer"></div>
             <li class="navbar-item"><a id="about_the_doctors">醫生履歷</a></li>
-            <div id="black-spacer"></div>
+            <div id="white-spacer"></div>
             <!--
             <li class="navbar-item"><a id="patient_info_sheets">病人須知事項</a></li>
-            <div id="black-spacer"></div>
+            <div id="white-spacer"></div>
 	    -->
             <li class="navbar-item"><a id="patient_feedback">病人反映</a></li>
-            <div id="black-spacer"></div>
+            <div id="white-spacer"></div>
 	    <!--
             <li class="navbar-item"><a id="helpful_links">網頁聯結</a></li>
-            <div id="black-spacer"></div>
+            <div id="white-spacer"></div>
             -->
 
             <div id="blue-spacer-2"></div>
           </ul>
         </div>
         <!-- main content -->
-        <div class="col-xs-8 right-content" id="content">
+        <div class="col-xs-5 right-content" id="content">
           住院三天兩
         </div>
-        <div class="col-xs-1"></div>
+        <div class="col-xs-3"></div>
       </div>
     </div>
 
     <!-- footer -->
     <div class="row" id="bottomrow">
-      <div class="col-xs-1"></div>
-      <div class="col-xs-10" id="bottomrow-text">病人反映電郵 copycopy7777@gmail.com</div>
-      <div class="col-xs-1"></div>
+      <div class="col-xs-3"></div>
+      <div class="col-xs-6" id="bottomrow-text">病人反映電郵 copycopy7777@gmail.com</div>
+      <div class="col-xs-3"></div>
     </div>
 
 

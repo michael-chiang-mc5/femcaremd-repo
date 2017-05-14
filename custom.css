@@ -30,23 +30,17 @@ a {
 }
 
 /* navbar */
-#blue-spacer-1 {
-  min-height: 10px;
-}
 .left-navbar {
   background-color: #cdf;
   float: none;
   display: table-cell;
 }
-#black-spacer {
-  height: 1px;
-  background-color: black;
+#white-spacer {
+  height: 2px;
+  background-color: white;
 }
 #blue-spacer-2 {
   min-height: 400px;
-}
-.navbar-item a {
-  font-size: 20;
 }
 
 /* content */
