@@ -35,20 +35,20 @@ $(document).ready(function() {
     }
 
     else if ( id == "patient_info_sheets" ) {
-      $.get("home_tab.html", function( my_var ) {
+      $.get("infosheets_tab.html", function( my_var ) {
           $( "#content" ).html(my_var);
       });
     }
 
 
     else if ( id == "patient_feedback" ) {
-      $.get("patient_feedback_tab.html", function( my_var ) {
+      $.get("locations_tab.html", function( my_var ) {
           $( "#content" ).html(my_var);
       });
     }
 
     else if ( id == "helpful_links" ) {
-      $.get("home_tab.html", function( my_var ) {
+      $.get("helpfullinks_tab.html", function( my_var ) {
           $( "#content" ).html(my_var);
       });
     }
